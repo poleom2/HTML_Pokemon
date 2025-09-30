@@ -9,8 +9,37 @@ ul {
     gap: 24px;
     padding: 24px;
     flex-wrap: wrap;
+    
 }
 li {
-    border: 1px solid;
+    display: flex;
+    /* border: 2px solid #000; */
     border-radius: 12px;
+    justify-content: center;
+    padding: 12px;
+    flex-direction:column;
+    align-items: center;
+    box-shadow:  8px rgba(0,0,0,0.1);
+
+    transition: 1s;
+    
+
+
+    
+    
+ 
+}
+img {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    object-fit: cover;
+ 
+}
+
+li:hover {
+    transform: scale(1.1);
+    box-shadow:  8px 8px 16px #cd5353,
+                 -8px -8px 16px #bf4e4e;
 }
