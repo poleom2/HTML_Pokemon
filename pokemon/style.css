@@ -1,0 +1,33 @@
+
+main{
+    display: flex;
+    justify-content: left;
+    flex-direction: column  ;
+    align-items: left;
+    gap: 20px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+    padding: 24px;
+  
+}
+.btn_Sair{
+    padding: 12px;
+    background-color: transparent;
+    width: 100px;
+    margin: 0 auto;
+
+}
+.Habidades{
+ 
+    align-items:left;
+    justify-content:column ;
+    padding: 24px;
+    
+    
+
+}
+
