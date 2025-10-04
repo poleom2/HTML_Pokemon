@@ -48,7 +48,7 @@ async function getPokemons(){
          li.addEventListener("click",()=>{
            //JSON.
             localStorage.setItem("pokemon",JSON.stringify(infos))
-            location.href = "/pokemon"
+            location.href = "./pokemon"
         })
         const img = document.createElement("img")
         img.src = infos.sprites.front_default
